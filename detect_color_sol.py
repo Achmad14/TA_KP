@@ -11,6 +11,7 @@ while(1):
 
     # Convert BGR to HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
 
     # define range of all color that you want to select in HSV
